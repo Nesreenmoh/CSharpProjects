@@ -1,0 +1,13 @@
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\bin\Debug\netcoreapp3.1\Person1_Proejct.exe
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\bin\Debug\netcoreapp3.1\Person1_Proejct.deps.json
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\bin\Debug\netcoreapp3.1\Person1_Proejct.runtimeconfig.json
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\bin\Debug\netcoreapp3.1\Person1_Proejct.runtimeconfig.dev.json
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\bin\Debug\netcoreapp3.1\Person1_Proejct.dll
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\bin\Debug\netcoreapp3.1\Person1_Proejct.pdb
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.csprojAssemblyReference.cache
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.AssemblyInfoInputs.cache
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.AssemblyInfo.cs
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.csproj.CoreCompileInputs.cache
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.dll
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.pdb
+C:\Users\NALSHARG\Desktop\NETProject\warming_up_01_person\Person1_Proejct\obj\Debug\netcoreapp3.1\Person1_Proejct.genruntimeconfig.cache
