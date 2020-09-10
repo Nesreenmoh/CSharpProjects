@@ -33,9 +33,9 @@ namespace Person1_Proejct.Models
             {
                 return age;
             }
-            set
+           private set
             {
-                age = value;
+                 age = value;
             }
             }
 
@@ -48,7 +48,7 @@ namespace Person1_Proejct.Models
         public override string ToString()
         {
             
-                return "I am celebrating my birthday, and my age is " + age + " Years old";
+                return " "+name.ToUpper()+" is celebrating my birthday, and my age is " + age + " Years old";
             
         }
     }
