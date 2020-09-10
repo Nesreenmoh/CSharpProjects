@@ -18,8 +18,26 @@ namespace Person1_Proejct.Models
         }
 
         // setter and getter
-        public string Name { get;  set; }
-        public int Age { get; set; }
+        public string Name {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+        public int Age {
+            get
+            {
+                return age;
+            }
+            set
+            {
+                age = value;
+            }
+            }
 
         public void CelebrateMyBirthday()
         {
