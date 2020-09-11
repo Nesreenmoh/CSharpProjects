@@ -26,7 +26,8 @@ namespace AirportProgram.Controllers
 
             else
             {
-                Console.WriteLine($"\n\tNot possible reach to the maximum number");
+                Console.WriteLine($"\n\tAirplane {airplane.Identification} charges {airplane.MaxOfPassengers - airplane.CurrentNoOfPassengers}" +
+                    $", {NoOfPassengers}  do not fit");
             }
                
         }
@@ -35,23 +36,39 @@ namespace AirportProgram.Controllers
         {
 
             Console.WriteLine($"\n\tAirplane {airplane.Identification}" +
-                $" unloads {airplane.CurrentNoOfPassengers} passengers");
+                $" discharges {airplane.CurrentNoOfPassengers} passengers");
 
         }
 
         public void TakeOff()
         {
-            airplane.IsFlying = true;
-            Console.WriteLine($"\n\tPlane {airplane.Identification}" +
-                $" takes off");
+            if (!airplane.IsFlying)
+            {
+                airplane.IsFlying = true;
+                Console.WriteLine($"\n\tPlane {airplane.Identification}" +
+                    $" rises");
+            }
+            else
+            {
+                Console.WriteLine($"\n\t Airplane {airplane.Identification} cannot take off, because we are already flying");
+            }
+           
 
         }
 
         public void Lands()
         {
-            airplane.IsFlying = false;
-            Console.WriteLine($"\n\tPlane {airplane.Identification}" +
-                $" Lands");
+            if (airplane.IsFlying)
+            {
+                airplane.IsFlying = false;
+                Console.WriteLine($"\n\tPlane {airplane.Identification}" +
+                    $" Lands");
+
+            }
+            else
+            {
+                Console.WriteLine($"\tAirplane {airplane.Identification} cannot land,because we are still on the ground");
+            }
 
         }
 
