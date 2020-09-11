@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NALSHARG\\Desktop\\NETProject\\warming_up_01_person\\Person1_Proejct\\Person1_Proejct.csproj",
+      "projectUniqueName": "C:\\Users\\NALSHARG\\Desktop\\NETProject\\warming_up_01_person\\warming_up_01_person\\Person1_Proejct.csproj",
       "projectName": "Person1_Proejct",
-      "projectPath": "C:\\Users\\NALSHARG\\Desktop\\NETProject\\warming_up_01_person\\Person1_Proejct\\Person1_Proejct.csproj",
+      "projectPath": "C:\\Users\\NALSHARG\\Desktop\\NETProject\\warming_up_01_person\\warming_up_01_person\\Person1_Proejct.csproj",
       "packagesPath": "C:\\Users\\NALSHARG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NALSHARG\\Desktop\\NETProject\\warming_up_01_person\\Person1_Proejct\\obj\\",
+      "outputPath": "C:\\Users\\NALSHARG\\Desktop\\NETProject\\warming_up_01_person\\warming_up_01_person\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NALSHARG\\AppData\\Roaming\\NuGet\\NuGet.Config",
