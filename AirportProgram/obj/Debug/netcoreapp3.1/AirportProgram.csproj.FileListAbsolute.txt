@@ -1,0 +1,13 @@
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\bin\Debug\netcoreapp3.1\AirportProgram.exe
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\bin\Debug\netcoreapp3.1\AirportProgram.deps.json
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\bin\Debug\netcoreapp3.1\AirportProgram.runtimeconfig.json
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\bin\Debug\netcoreapp3.1\AirportProgram.runtimeconfig.dev.json
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\bin\Debug\netcoreapp3.1\AirportProgram.dll
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\bin\Debug\netcoreapp3.1\AirportProgram.pdb
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.csprojAssemblyReference.cache
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.AssemblyInfoInputs.cache
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.AssemblyInfo.cs
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.csproj.CoreCompileInputs.cache
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.dll
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.pdb
+C:\Users\NALSHARG\Desktop\NETProject\AirportProgram\obj\Debug\netcoreapp3.1\AirportProgram.genruntimeconfig.cache
