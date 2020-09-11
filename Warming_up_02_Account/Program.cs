@@ -1,6 +1,6 @@
 ﻿using BankAccountExercise.Controller;
 using BankAccountExercise.Models;
-
+using System;
 
 namespace BankAccountExercise
 {
@@ -39,8 +39,13 @@ namespace BankAccountExercise
             accountController.WithdrawMoney(AccountOne, 100);
             accountController.WithdrawMoney(AccountTwo, 142);
 
-
-
+            /*
+             * transfer money from account to another
+             * Transfer 500 from account 2 to account 3
+             * Transfer 400 from account 1 to account 2
+             */
+            accountController.TransferMoney(AccountTwo, AccountThree, 500);
+          
         }
     }
 }
