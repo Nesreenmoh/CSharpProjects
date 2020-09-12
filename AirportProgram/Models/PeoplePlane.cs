@@ -3,11 +3,11 @@ namespace AirportProgram.Models
 {
    public class PeoplePlane : Airplane
     {
-       
-       
+
+     
         public int MaxOfPassengers { get; set; }
 
-        public int CurrentNoOfPassengers { get; set; }
+        public int CurrentNoOfPassengers { get;  set; }
 
       
 
