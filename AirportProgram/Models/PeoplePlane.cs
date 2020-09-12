@@ -1,7 +1,10 @@
 ﻿
+using AirportProgram.Interfaces;
+using System;
+
 namespace AirportProgram.Models
 {
-   public class PeoplePlane : Airplane
+   public class PeoplePlane : Airplane, IJetEngine
     {
 
      
@@ -29,6 +32,9 @@ namespace AirportProgram.Models
                 $"Is flying : {IsFlying}";
         }
 
-
+       public void StartingMortor()
+        {
+            Console.WriteLine("\n\tThe People plane is Starting ....");
+        }
     }
 }

@@ -1,8 +1,11 @@
 ﻿
 
+using AirportProgram.Interfaces;
+using System;
+
 namespace AirportProgram.Models
 {
-    public class CargoPlane : Airplane
+    public class CargoPlane : Airplane, IPropeller
     {
       
 
@@ -15,6 +18,10 @@ namespace AirportProgram.Models
             CurrentCargo = currentCargo;
         }
 
+        public void TighteningPropellers()
+        {
+            Console.WriteLine(" \n\t Tightening the Propellers...");
+        }
         public override string ToString()
         {
             return $"Identification: {Identification} " +
