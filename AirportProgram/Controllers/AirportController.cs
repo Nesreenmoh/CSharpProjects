@@ -17,13 +17,17 @@ namespace AirportProgram.Controllers
 
         public IList<Airplane> ReturnAvailableAirplanes()
         {
-            IList<Airplane> AvailableAirplanes = new List<Airplane>() ;
+            var AvailableAirplanes = new List<Airplane>() ;
             foreach (Airplane Airplane in Airport.Airplanes)
             {
-                if((Airplane.CurrentNoOfPassengers< Airplane.MaxOfPassengers) && (!Airplane.IsFlying))
+                if (Airplane is PeoplePlane)
                 {
-                    AvailableAirplanes.Add(Airplane);
+                    if (((PeoplePlane)Airplane).CurrentNoOfPassengers < ((PeoplePlane)Airplane).MaxOfPassengers && (!Airplane.IsFlying))
+                    {
+                        AvailableAirplanes.Add((PeoplePlane)Airplane);
+                    }
                 }
+                    
             }
 
             return AvailableAirplanes;
@@ -34,7 +38,10 @@ namespace AirportProgram.Controllers
             Console.WriteLine("\n********************************************");
             Console.WriteLine($"\n\tAircraft from airport {Airport.Name}:");
             foreach (Airplane AirplaneList in Airport.Airplanes){
-                Console.WriteLine($"\n\tAirplane {AirplaneList.Identification}");
+                if(AirplaneList is PeoplePlane)
+                Console.WriteLine($"\n\tPassenger Plane {AirplaneList.Identification}");
+                else
+                    Console.WriteLine($"\n\tCargo Plane {AirplaneList.Identification}");
             }
         }
     }

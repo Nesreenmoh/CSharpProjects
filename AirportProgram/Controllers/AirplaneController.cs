@@ -7,26 +7,26 @@ namespace AirportProgram.Controllers
 
     public class AirplaneController
     {
-        private Airplane airplane;
-        public AirplaneController(Airplane airplane)
+        private PeoplePlane PeopleAireplane;
+        public AirplaneController(PeoplePlane PeopleAirplane)
         {
-            this.airplane = airplane;
+            this.PeopleAireplane = PeopleAirplane;
            
         }
 
         public void loadpassengers(int NoOfPassengers)
         {
-            if ((airplane.CurrentNoOfPassengers + NoOfPassengers)<= airplane.MaxOfPassengers )
+            if ((PeopleAireplane.CurrentNoOfPassengers + NoOfPassengers)<= PeopleAireplane.MaxOfPassengers )
             {
-                airplane.CurrentNoOfPassengers += NoOfPassengers;
-                Console.WriteLine($"\n\tAirplane {airplane.Identification}" +
+                PeopleAireplane.CurrentNoOfPassengers += NoOfPassengers;
+                Console.WriteLine($"\n\tAirplane {PeopleAireplane.Identification}" +
                 $" loads {NoOfPassengers} passengers");
 
             }
 
             else
             {
-                Console.WriteLine($"\n\tAirplane {airplane.Identification} charges {airplane.MaxOfPassengers - airplane.CurrentNoOfPassengers}" +
+                Console.WriteLine($"\n\tAirplane {PeopleAireplane.Identification} charges {PeopleAireplane.MaxOfPassengers - PeopleAireplane.CurrentNoOfPassengers}" +
                     $", {NoOfPassengers}  do not fit");
             }
                
@@ -35,22 +35,27 @@ namespace AirportProgram.Controllers
         public void Unloadpassengers()
         {
 
-            Console.WriteLine($"\n\tAirplane {airplane.Identification}" +
-                $" discharges {airplane.CurrentNoOfPassengers} passengers");
+            Console.WriteLine($"\n\tAirplane {PeopleAireplane.Identification}" +
+                $" discharges {PeopleAireplane.CurrentNoOfPassengers} passengers");
+
+            /*
+             * change the current passengers to 0 after unloading
+             */
+            PeopleAireplane.CurrentNoOfPassengers = 0;
 
         }
 
         public void TakeOff()
         {
-            if (!airplane.IsFlying)
+            if (!PeopleAireplane.IsFlying)
             {
-                airplane.IsFlying = true;
-                Console.WriteLine($"\n\tPlane {airplane.Identification}" +
+                PeopleAireplane.IsFlying = true;
+                Console.WriteLine($"\n\tPlane {PeopleAireplane.Identification}" +
                     $" rises");
             }
             else
             {
-                Console.WriteLine($"\n\t Airplane {airplane.Identification} cannot take off, because we are already flying");
+                Console.WriteLine($"\n\t Airplane {PeopleAireplane.Identification} cannot take off, because we are already flying");
             }
            
 
@@ -58,16 +63,16 @@ namespace AirportProgram.Controllers
 
         public void Lands()
         {
-            if (airplane.IsFlying)
+            if (PeopleAireplane.IsFlying)
             {
-                airplane.IsFlying = false;
-                Console.WriteLine($"\n\tPlane {airplane.Identification}" +
+                PeopleAireplane.IsFlying = false;
+                Console.WriteLine($"\n\tPlane {PeopleAireplane.Identification}" +
                     $" Lands");
 
             }
             else
             {
-                Console.WriteLine($"\tAirplane {airplane.Identification} cannot land,because we are still on the ground");
+                Console.WriteLine($"\tAirplane {PeopleAireplane.Identification} cannot land,because we are still on the ground");
             }
 
         }
